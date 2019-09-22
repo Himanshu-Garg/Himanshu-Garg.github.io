@@ -1,8 +1,5 @@
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-}
+
 
 .title {
   font-size: 38px;
@@ -12,7 +9,7 @@ body {
 }
 .timelinee {
   width: 100%;
-  background-color: black;
+  background-color: #FF9000;
   box-shadow: 0 5px 25px 5px rgba(0, 0, 0, 0.2);
 }
 .timelinee .swiper-container {
@@ -58,12 +55,12 @@ body {
 .timelinee .swiper-slide .timelinee-year {
   display: block;
   font-style: italic;
-  font-size: 42px;
+  font-size: 30px;
   margin-bottom: 50px;
   -webkit-transform: translate3d(20px, 0, 0);
           transform: translate3d(20px, 0, 0);
   color: #d4a024;
-  font-weight: 300;
+  font-weight: .3;
   opacity: 0;
   transition: .2s ease .4s;
 }
